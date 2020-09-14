@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2c4e313b8e05da57013b02babfa8ac4",
+    "revision": "c604abb1a86f085bd3db319bd7274860",
     "url": "/refraction-demo/index.html"
   },
   {
-    "revision": "fdebba00c382372ee064",
+    "revision": "ed791ed2ccd68eb2df9b",
     "url": "/refraction-demo/static/css/main.e772a918.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/refraction-demo/static/js/2.ce716967.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fdebba00c382372ee064",
-    "url": "/refraction-demo/static/js/main.9dff2c1e.chunk.js"
+    "revision": "ed791ed2ccd68eb2df9b",
+    "url": "/refraction-demo/static/js/main.60074c0f.chunk.js"
   },
   {
     "revision": "4a41758facb74a8bc4e4",
