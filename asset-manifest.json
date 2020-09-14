@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/refraction-demo/static/css/main.e772a918.chunk.css",
+    "main.js": "/refraction-demo/static/js/main.9dff2c1e.chunk.js",
+    "main.js.map": "/refraction-demo/static/js/main.9dff2c1e.chunk.js.map",
+    "runtime-main.js": "/refraction-demo/static/js/runtime-main.eac90991.js",
+    "runtime-main.js.map": "/refraction-demo/static/js/runtime-main.eac90991.js.map",
+    "static/js/2.ce716967.chunk.js": "/refraction-demo/static/js/2.ce716967.chunk.js",
+    "static/js/2.ce716967.chunk.js.map": "/refraction-demo/static/js/2.ce716967.chunk.js.map",
+    "index.html": "/refraction-demo/index.html",
+    "precache-manifest.1ffc4b86b05d1412bc5ebdeaf026881e.js": "/refraction-demo/precache-manifest.1ffc4b86b05d1412bc5ebdeaf026881e.js",
+    "service-worker.js": "/refraction-demo/service-worker.js",
+    "static/css/main.e772a918.chunk.css.map": "/refraction-demo/static/css/main.e772a918.chunk.css.map",
+    "static/js/2.ce716967.chunk.js.LICENSE.txt": "/refraction-demo/static/js/2.ce716967.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/refraction-demo/static/media/aeonik-regular.29d90451.woff2",
+    "static/media/fragment.glsl": "/refraction-demo/static/media/fragment.2d5e6faf.glsl",
+    "static/media/logo.svg": "/refraction-demo/static/media/logo.5d5d9eef.svg",
+    "static/media/vertex.glsl": "/refraction-demo/static/media/vertex.2ded267d.glsl"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eac90991.js",
+    "static/js/2.ce716967.chunk.js",
+    "static/css/main.e772a918.chunk.css",
+    "static/js/main.9dff2c1e.chunk.js"
+  ]
+}
