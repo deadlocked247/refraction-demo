@@ -47,6 +47,13 @@ export default class Canvas {
   }
 
   addEvents() {
+    window.addEventListener('blur', () => {
+      this.velocity = 0.005;
+      this.dx = 0;
+      this.velocity2 = 0.005;
+    });
+
+    
     if ("ontouchmove" in window) {
       window.addEventListener("touchstart", this.handleMouseDown);
       window.addEventListener("touchmove", this.handleMouseMove);
@@ -259,7 +266,7 @@ export default class Canvas {
 
     if (this.dx) {
 
-      this.quad.material.uniforms.time.value = lerp(this.quad.material.uniforms.time.value, this.quad.material.uniforms.time.value + Math.abs(this.dx), .001);
+      this.quad.material.uniforms.time.value = lerp(this.quad.material.uniforms.time.value, this.quad.material.uniforms.time.value + Math.min(Math.abs(this.dx), 30), .001);
 
 
     }
@@ -315,18 +322,10 @@ export default class Canvas {
 
   handleMouseMove = (e) => {
     var now = Date.now();
-    var dt =  now - this.timestamp;
     var dx = e.screenX - this.lastMouseX;
-    var dy = e.screenY - this.lastMouseY;
-    var speedX = Math.round(dx / dt * 100);
-    var speedY = Math.round(dy / dt * 100);
     this.dx = dx;
-    this.dy = dy;
-
     this.timestamp = now;
     this.lastMouseX = e.screenX;
-    this.lastMouseY = e.screenY; 
-    
     this.lastX = e.clientX / window.innerWidth - 0.5;
     this.lastY = 0.5 * (1 - e.clientY / window.innerHeight);
 
